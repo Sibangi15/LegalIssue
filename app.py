@@ -8,8 +8,8 @@ app = FastAPI()
 
 classifier = pipeline(
     "text-classification",
-    model="YOUR_USERNAME/YOUR_MODEL_NAME",
-    tokenizer="YOUR_USERNAME/YOUR_MODEL_NAME",
+    model="Sibangi01/legal_issue",
+    tokenizer="Sibangi01/legal_issue",
     device=-1,
     torch_dtype=torch.float32
 )
